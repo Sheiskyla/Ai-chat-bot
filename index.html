@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chatbot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chatbot-popup">
+    <div class="chat-header">
+      <div class="header-info">
+        <svg class="chatbot-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+          <path fill="#06b6d4" d="M10 14c0-5 4-9 9-9h26c5 0 9 4 9 9v18c0 5-4 9-9 9H28l-8 6-2-6H19c-5 0-9-4-9-9V14z"/>
+          <rect fill="#fff" x="18" y="18" width="28" height="22" rx="4" ry="4"/>
+          <rect fill="#0b7285" x="30" y="12" width="4" height="6" rx="1"/>
+          <circle fill="#0b7285" cx="32" cy="11" r="2"/>
+          <circle fill="#0b7285" cx="26.5" cy="27" r="2.5"/>
+          <circle fill="#0b7285" cx="37.5" cy="27" r="2.5"/>
+          <rect fill="#0b7285" x="26" y="33" width="12" height="3" rx="1.5"/>
+        </svg>
+        <h2 class="logo-text">Dela Chatbot</h2>
+      </div>
+      <button class="material-symbols-outlined">keyboard_arrow_down</button>
+    </div>
+
+    <div class="chat-body">
+      <div class="message bot-message">
+        <svg class="bot-avatar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32">
+          <path fill="#06b6d4" d="M10 14c0-5 4-9 9-9h26c5 0 9 4 9 9v18c0 5-4 9-9 9H28l-8 6-2-6H19c-5 0-9-4-9-9V14z"/>
+          <rect fill="#fff" x="18" y="18" width="28" height="22" rx="4" ry="4"/>
+          <rect fill="#0b7285" x="30" y="12" width="4" height="6" rx="1"/>
+          <circle fill="#0b7285" cx="32" cy="11" r="2"/>
+          <circle fill="#0b7285" cx="26.5" cy="27" r="2.5"/>
+          <circle fill="#0b7285" cx="37.5" cy="27" r="2.5"/>
+          <rect fill="#0b7285" x="26" y="33" width="12" height="3" rx="1.5"/>
+        </svg>
+        <div class="message-text">Hello, how may I help you today?</div>
+      </div>
+    </div>
+
+   <div class="chat-footer">
+  <form class="chat-form">
+    <textarea class="message-input" placeholder="Type a message..."></textarea>
+    <div class="chat-controls">
+      <div class="emoji-container">
+        <button type="button" class="emoji-btn">😊</button>
+        <div class="emoji-picker">
+          <button>😀</button>
+          <button>😁</button>
+          <button>😂</button>
+          <button>😍</button>
+          <button>😘</button>
+          <button>😎</button>
+
+        </div>
+      </div>
+      <label class="attach-btn material-symbols-outlined">
+        attach_file
+        <input type="file" class="file-input" hidden>
+      </label>
+      <button type="submit">➤</button>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
