@@ -6,7 +6,7 @@ const emojiBtn = document.querySelector(".emoji-btn");
 const attachBtn = document.querySelector(".chat-controls .material-symbols-outlined");
 
 const API_KEY = "AIzaSyBSmYWEu4EvE5pZgUhhJrsrbD7fhhsZZgM";
-const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
+const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite";
 
 
 const userData = { message: null };``
